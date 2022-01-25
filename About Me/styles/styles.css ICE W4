@@ -12,10 +12,6 @@ h2 {
     margin: 0 auto
 }
 
-.social {
-    text-allign: center;
-}
-
 #img-container {
-    
+    margin: 0 auto
 }
