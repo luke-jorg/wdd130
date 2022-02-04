@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=RocknRoll+One&display=swap');
+body {
+    background-color: #adadad;
+    font-family: Rock+Salt, arial, sans-serif;
+}
+h1, h2, p {
+    font-family: 'Rock Salt', arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    color: #b5171a;
+}
+h2, p {
+    color: #0B090A;
+}
+#img-container {
+    text-align: center;
+}
+footer p {
+    padding: 60px;
+}

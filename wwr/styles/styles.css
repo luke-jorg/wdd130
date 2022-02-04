@@ -1,13 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@font-face {
+    font-family: "RocknRoll One";
+    src: url(fonts/RocknRoll-One-Regular-400.ttf);
+}
 div {
     max-width: 1600px;
 }
 #content {
     margin: 0auto;
 }
-nav a {
+body {
+    background-color: #233d4d;
     text-align: center;
-    color: #DF5A01;
-    text-decoration: none;
+    font-family: sans-serif, Helvetica, Arial;
+    font-size: 22px;
+}
+.home-title{
+    color: #fcca46;
+    font-family: "RocknRoll One", sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+header {
+    background-color: #D1CFB3;
+    text-align: center;
+    font-family: 'RocknRoll One', sans-serif;
 }
 #hero-msg1, #hero-msg4 {
     text-align: center;
@@ -21,11 +38,10 @@ main section {
 #background {
     height: 725px;
 }
-body {
-    background-color: #233d4d;
-}
-header {
-    background-color: #D1CFB3;
+nav a {
+    text-align: center;
+    color: #DF5A01;
+    text-decoration: none;
 }
 nav a:hoover {
     background-color: #233d4d;
@@ -35,6 +51,7 @@ nav a:hoover {
     background-color: #233d4d;
     color: #fcca46;
     text-decoration: none;
+    font-family: sans-serif, Helvetica, Arial
 }
 .book:hoover, .join:hoover {
     background-color: #233d4d;
@@ -45,12 +62,10 @@ nav a:hoover {
 }
 .msg {
     background-color: #D1CFB3;
+    line-height: ;
 }
 footer {
     background-color: #D1CFB3;
-}
-.home-title{
-    color: #fcca46;
 }
 h4 {
     color: #DF5A01;
@@ -64,6 +79,7 @@ h4 {
 footer h3 {
     color: #DF5A01;
     text-decoration: underline;
+    font-family: "RocknRoll One", sans-serif;
 }
 footer a {
     color: #DF5A01;
@@ -73,13 +89,17 @@ footer a:hoover {
     color: #fcca46;
     text-decoration: underline;
 }
-.logo {
+.logo-link {
+    display: block;
+    text-align: center;
     width: 80px;
+    margin: 0 auto;
 }
 .icon {
     width: 80px;
 }
 #hero-img {
+    display: block;
+    text-align: center;
     width: 100%;
-    margin: 0 auto;
 }
