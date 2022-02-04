@@ -14,6 +14,16 @@ body {
     text-align: center;
     font-family: sans-serif, Helvetica, Arial;
     font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+.logo-link {
+    display: block;
+    text-align: center;
+    width: 80px;
+    margin: 0 auto;
+    padding-top: 5px;
+    margin-top: 10px;
 }
 .home-title{
     color: #fcca46;
@@ -24,7 +34,14 @@ body {
 header {
     background-color: #D1CFB3;
     text-align: center;
-    font-family: 'RocknRoll One', sans-serif;
+    font-family: "RocknRoll One", sans-serif;
+}
+#hero-img {
+    display: block;
+    text-align: center;
+    width: 100%;
+    border-style: dashed;
+    border-width: 15px black; 
 }
 #hero-msg1, #hero-msg4 {
     text-align: center;
@@ -32,11 +49,15 @@ header {
 .button-box {
     text-align: center;
 }
-main section {
+main section img {
     text-align: center;
+    box-sizing: border-box;
 }
 #background {
     height: 725px;
+}
+h2 {
+    margin: 0;
 }
 nav a {
     text-align: center;
@@ -46,40 +67,64 @@ nav a {
 nav a:hoover {
     background-color: #233d4d;
     color: #fcca46;
+    padding: 35px;
 }
 .book, .join {
     background-color: #233d4d;
     color: #fcca46;
     text-decoration: none;
-    font-family: sans-serif, Helvetica, Arial
+    font-family: sans-serif, Helvetica, Arial;
+    padding: 15px, 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hoover, .join:hoover {
     background-color: #233d4d;
     color: #fcca46;
 }
 #background {
-    background-color: #233d4d;
+    background-color: #DF5A01;
 }
 .msg {
     background-color: #D1CFB3;
-    line-height: ;
-}
-footer {
-    background-color: #D1CFB3;
+    line-height: 1.5em;
+    padding: 35px
 }
 h4 {
     color: #DF5A01;
 }
 .msg h2 {
     color: #DF5A01;
+    line-height: 1.5em;
 }
 .msg p {
     color: #DF5A01;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+}
+.card-img {
+    margin: 200px 0;
+    border-radius: 5px solid black;
+}
+.icon {
+    display: block;
+    text-align: center;
+    width: 80px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+footer {
+    background-color: #D1CFB3;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer h3 {
     color: #DF5A01;
     text-decoration: underline;
     font-family: "RocknRoll One", sans-serif;
+}
+footer .social-img {
+    padding-top: 15px;
 }
 footer a {
     color: #DF5A01;
@@ -88,18 +133,4 @@ footer a {
 footer a:hoover {
     color: #fcca46;
     text-decoration: underline;
-}
-.logo-link {
-    display: block;
-    text-align: center;
-    width: 80px;
-    margin: 0 auto;
-}
-.icon {
-    width: 80px;
-}
-#hero-img {
-    display: block;
-    text-align: center;
-    width: 100%;
 }
