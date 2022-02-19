@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?lang="en"?family=Akaya+Telivigala&family=RocknRoll+One&display=swap');
 @font-face {
-    font-family: "RocknRoll One";
+    font-family: "Akaya Telivigal", "RocknRoll One", sans-serif;
     src: url(fonts/RocknRoll-One-Regular-400.ttf);
 }
 div {
@@ -10,101 +10,167 @@ div {
     margin: 0auto;
 }
 body {
-    background-color: #233d4d;
+    background-color: #394436;
     text-align: center;
-    font-family: sans-serif, Helvetica, Arial;
+    font-family: "RocknRoll One", "Akaya Telivigal", sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
-.logo-link {
+#logo-link {
     display: block;
-    text-align: center;
-    width: 80px;
     margin: 0 auto;
+    width: 60px;
     padding-top: 5px;
-    margin-top: 10px;
+    padding-right: 40px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 150px;
 }
 .home-title{
-    color: #fcca46;
-    font-family: "RocknRoll One", sans-serif;
+    color: #D0B544;
+    font: "RocknRoll One";
     font-size: 2em;
     text-align: center;
 }
 header {
-    background-color: #D1CFB3;
+    background-color: #5C7BC1;
     text-align: center;
     font-family: "RocknRoll One", sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
-#hero-img {
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
     display: block;
     text-align: center;
     width: 100%;
-    border-style: dashed;
-    border-width: 15px black; 
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
 }
-#hero-msg1, #hero-msg4 {
+.hero {
+    width: 100%;
+}
+#hero-msg {
+    font: "Akaya Telivigal";
     text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
 }
 .button-box {
     text-align: center;
 }
-main section img {
-    text-align: center;
-    box-sizing: border-box;
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 #background {
     height: 725px;
 }
 h2 {
+    font: "RocknRoll One";
+    color: #D0B544;
+    padding-bottom: 10px;
     margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
 }
 nav a {
     text-align: center;
-    color: #DF5A01;
+    color: #FCF7AC;
+    font-size: 28px;
     text-decoration: none;
+    margin-top: 26px;
 }
-nav a:hoover {
+nav a:hover {
     background-color: #233d4d;
-    color: #fcca46;
+    color: #D0B544;
     padding: 35px;
 }
-.book, .join {
-    background-color: #233d4d;
+.book {
+    font: "Akaya Telivigal";
     color: #fcca46;
     text-decoration: none;
-    font-family: sans-serif, Helvetica, Arial;
+    padding: 15px, 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.join {
+    font: "Akaya Telivigal";
+    color: #FCF7AC;
+    text-decoration: none;
     padding: 15px, 30px;
     margin-top: 50px;
     border-radius: 5px;
 }
 .book:hoover, .join:hoover {
     background-color: #233d4d;
-    color: #fcca46;
-}
-#background {
-    background-color: #DF5A01;
-}
-.msg {
-    background-color: #D1CFB3;
-    line-height: 1.5em;
-    padding: 35px
+    color: #D0B544;
 }
 h4 {
-    color: #DF5A01;
+    color: #D0B544;
+    font: "Akaya Telivigal";
 }
 .msg h2 {
-    color: #DF5A01;
+    color: #FCF7AC;
     line-height: 1.5em;
 }
-.msg p {
-    color: #DF5A01;
+.p {
+    color: #FCF7AC;
     line-height: 1.5em;
     padding-bottom: 15px;
 }
+.card-img, .mountains {
+    width: 100%;
+    border-style: outset;
+}
 .card-img {
-    margin: 200px 0;
-    border-radius: 5px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1,1);
+}
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.camping-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+#background {
+    background-color: #789339;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+.mountains {
+    grid-column: 2/7;
+    grid-row: 5/8;
+}
+.msg {
+    background-color: #5C7BC1;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    font: "RocknRoll One";
 }
 .icon {
     display: block;
@@ -114,12 +180,16 @@ h4 {
     margin: 0 auto;
 }
 footer {
-    background-color: #D1CFB3;
+    font: "Akaya Telivigal";
+    background-color: #789339;
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 footer h3 {
-    color: #DF5A01;
+    color: #FCF7AC;
     text-decoration: underline;
     font-family: "RocknRoll One", sans-serif;
 }
@@ -127,10 +197,51 @@ footer .social-img {
     padding-top: 15px;
 }
 footer a {
-    color: #DF5A01;
+    color: #FCF7AC;
     text-decoration: none;
 }
 footer a:hoover {
     color: #fcca46;
     text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }
