@@ -1,14 +1,15 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=RocknRoll+One&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #156064  ;
-  --secondary-color: #00C49A ;
-  --accent1-color: #F8E16C;
-  --accent2-color: #FF8A70;
+  --primary-color: #FCF7AC;
+  --secondary-color: #D0B544;
+  --accent1-color: #9ABA4F;
+  --accent2-color: #394436;
+  --accent3-color: #5C7BC1;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Rock Salt";
