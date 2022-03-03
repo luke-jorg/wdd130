@@ -84,19 +84,18 @@ h2 {
 nav {
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
 }
 nav a {
     text-align: center;
     color: #FCF7AC;
     font-size: 28px;
     text-decoration: none;
-    margin-top: 26px;
+    margin: 0 auto;
+    padding: 5%;
 }
 nav a:hover {
     background-color: #233d4d;
     color: #D0B544;
-    padding: 35px;
 }
 .book {
     font: "Akaya Telivigal";
@@ -244,4 +243,84 @@ footer a:hoover {
     footer {
         margin-top: 25px;
     }
+}
+.trip-planner {
+    font-size: 42px;
+    color: #D0B544;
+}
+.trip-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+#gc1 {
+    background-color: #789339;
+}
+#gc2 {
+    background-color: #789339;
+}
+#salmon-river {
+    background-color: #789339;
+}
+#deso {
+    background-color: #789339;
+}
+h3 {
+    color: white;
+}
+ul {
+    color: #233d4d;
+    justify-content: center;
+}
+.p3 {
+    color: #233d4d;
+    columns: 1/2;
+    grid-row: 1/2;
+}
+.gc1-img {
+    columns: 2/3;
+    grid-row: 1/2;
+}
+.ul1 {
+    columns: 1/2;
+    grid-row: 1/2;
+}
+.p4 {
+    color: #233d4d;
+    columns: 2/3;
+    grid-row: 2/3;
+}
+.gc2-img {
+    columns: 1/2;
+    grid-row: 2/3;
+}
+.ul2 {
+    columns: 2/3;
+    grid-row: 2/3;
+}
+.p5 {
+    color: #233d4d;
+    columns: 1/2;
+    grid-row: 3/4;
+}
+.salmon-img {
+    columns: 2/3;
+    grid-row: 3/4;
+}
+.ul3 {
+    columns: 1/2;
+    grid-row: 3/4;
+}
+.p6 {
+    color: #233d4d;
+    columns: 2/3;
+    grid-row: 4/5;
+}
+.deso-img {
+    columns: 1/2;
+    grid-row: 4/5;
+}
+.ul4 {
+    columns: 2/3;
+    grid-row: 4/5;
 }
