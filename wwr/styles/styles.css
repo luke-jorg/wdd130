@@ -254,7 +254,7 @@ footer a:hoover {
 .trip-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    justify-items:center;
 }
 #gc1 {
     grid-column: 1/2;
