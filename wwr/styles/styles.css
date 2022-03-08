@@ -247,7 +247,7 @@ footer a:hoover {
 #div2 {
     max-width: 450px;
 }
-.trip-planner {
+.h5 {
     font-size: 52px;
     color: #D0B544;
 }
@@ -271,6 +271,7 @@ footer a:hoover {
     grid-column: 2/3;
     grid-row: 2/3;
     color: white;
+    font-size: 26px;
     text-align: left;
     padding-right: 25px;
 }
@@ -295,6 +296,7 @@ footer a:hoover {
     grid-column: 1/2;
     grid-row: 4/5;
     color: white;
+    font-size: 26px;
     text-align: left;
     padding-left: 25px;
 }
@@ -319,6 +321,7 @@ footer a:hoover {
     grid-column: 2/3;
     grid-row: 6/7;
     color: white;
+    font-size: 26px;
     text-align: left;
     padding-left: 25px;
 }
@@ -342,8 +345,9 @@ footer a:hoover {
 }
 .salmon-list {
     grid-column: 1/2;
-    grid-row: 7/8;
+    grid-row: 8/9;
     color: white;
+    font-size: 26px;
     text-align: left;
     align-self: end;
     padding-right: 25px;

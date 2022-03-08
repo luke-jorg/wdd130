@@ -1,0 +1,11 @@
+#content {
+    max-width: 1600px;
+}
+#hero-img {
+    max-width: 300px;
+    max-height: 250px;
+}
+#city-img {
+    max-width: 2600px;
+    max-height: 240px;
+}
