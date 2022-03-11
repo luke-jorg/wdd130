@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Sniglet&display=swap');
+/*--primary-color: #EBEBEB;
+--secondary-color: #00171F;
+--accent1-color: #003459;
+--accent2-color: #00A8E8;*/
 #content {
     max-width: 1600px;
+    background-color: #C71A1D;
+    color: #00171f;
 }
 #hero-img {
     max-width: 300px;

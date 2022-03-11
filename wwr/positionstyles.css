@@ -180,6 +180,7 @@
   grid-column: 5/7;
   grid-row: 3/7;
   z-index: 1;
+  align-self: auto;
 } 
 .blue6 {
   width: 425px; 
