@@ -57,29 +57,22 @@ h1 {
     padding-bottom: 50px;
     margin-top: auto;
 }
-.parallax {
-    background-image: url("Images/Home3.1.jpg");
-    height: 300px;
-    z-index: 1;
-}
-/*body, html {
+body, html {
     height: 100%;
   }
-  
-  .parallax {
-    position: relative;
-    /* The image used 
-    background-image: url("img_Home2.1.jpg");
-  
-     Full height 
+.parallax {
+    position: fixed;
+    opacity: 0.5;
+    /* Full height */ 
     height: 100%;
-  
-     Create the parallax scrolling effect 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }*/
+    width: 100%;
+    margin: 0 auto;
+    /* Create the parallax scrolling effect */
+    z-index: -1;
+  }
+  .parallax img {
+      width: 100%;
+  }
 #home-grid {
     display: grid;
     grid-template-columns: 100px 2fr 1fr 3fr 1fr 1fr;
