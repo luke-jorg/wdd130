@@ -8,9 +8,8 @@
   --accent1-color: WHITE #e0e0e0;
   --accent2-color: BLACK #161a1d;
   --Misc. #249BE0 BLUE */
-#content {
+  #content {
     max-width: 1600px;
-    background-color: #e0e0e0;
     color: #00171f;
     font-family: 'Actor', sans-serif;
 }
@@ -45,17 +44,42 @@ nav a:hover {
     width: 100%;
 }
 .hero-img {
-    width: 90%;
-    height: 75%;
-    padding-top: 15px;    
+    width: 60%;
+    max-height: 90%;
+    padding-top: 30px;
+    justify-self: auto;
 }
 h1 {
     font-family: 'Singlet', sans-serif;
     font-size: 52px;
     color: #c71a1d;
-    align-self: auto;
-    justify-content: space-around;
+    justify-self: auto;
+    padding-bottom: 50px;
+    margin-top: auto;
 }
+.parallax {
+    background-image: url("Images/Home3.1.jpg");
+    height: 300px;
+    z-index: 1;
+}
+/*body, html {
+    height: 100%;
+  }
+  
+  .parallax {
+    position: relative;
+    /* The image used 
+    background-image: url("img_Home2.1.jpg");
+  
+     Full height 
+    height: 100%;
+  
+     Create the parallax scrolling effect 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }*/
 #home-grid {
     display: grid;
     grid-template-columns: 100px 2fr 1fr 3fr 1fr 1fr;
