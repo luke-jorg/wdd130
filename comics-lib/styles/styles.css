@@ -8,7 +8,7 @@
   --accent1-color: WHITE #e0e0e0;
   --accent2-color: BLACK #161a1d;
   --Misc. #249BE0 BLUE */
-  #content {
+#content {
     max-width: 1600px;
     color: #00171f;
     font-family: 'Actor', sans-serif;
@@ -39,7 +39,6 @@ nav a:hover {
     grid-template-columns: 1fr;
 }
 #hero-box {
-    display: block;
     text-align: center;
     width: 100%;
 }
@@ -59,6 +58,7 @@ h1 {
 }
 body, html {
     height: 100%;
+    margin: 0px;
   }
 .parallax {
     position: fixed;
@@ -69,6 +69,7 @@ body, html {
     margin: 0 auto;
     /* Create the parallax scrolling effect */
     z-index: -1;
+    top: 0;
   }
   .parallax img {
       width: 100%;
@@ -99,6 +100,7 @@ p {
     background-color: #c71a1d;
     color: #00171f;
     text-align: left;
+    padding: 10px;
 }
 .city-img {
     grid-row: 2/5;
@@ -112,6 +114,7 @@ p {
     z-index: 1;
     width: 95%;
     text-align: left;
+    padding: 10px;
     border: 1px solid;
     background-color: #c71a1d;
     margin-left: 75px;
@@ -139,4 +142,114 @@ footer a {
 footer a:hover {
     color: #00171f;
     background-color: #249BE0;
+}
+@media screen and (max-width: 900px) {
+    #content {
+        max-width: 1600px;
+        color: #00171f;
+        font-family: 'Actor', sans-serif;
+    }
+    header {
+        background-color: #a4161a;
+        text-align: center;
+        display: grid;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    nav a {
+        color: #e0e0e0;
+        font-size: 28px;
+        text-decoration: none;
+        margin: 0 auto;
+        padding: 4%;
+    }
+    nav a:hover {
+        background-color: #249BE0;
+        color: #00171f;
+    }
+    footer {
+        background-color: #a4161a;
+        padding: 25px 50px;
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    footer a {
+        color: #e0e0e0;
+        font-size: 28px;
+    }
+    footer a:hover {
+        color: #00171f;
+        background-color: #249BE0;
+    }
+}
+#trip-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 420px);
+    margin: 50px auto;
+}
+.la-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: auto;
+    text-align: center;
+}
+.la-text {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: left;
+    background-color: #c71a1d;
+    border: 1px hidden;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.sub1 {
+    text-align: center;
+    border: none;
+}
+.ny-img {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: auto;
+    text-align: center;
+}
+.ny-text {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: left;
+    background-color: #c71a1d;
+    border: 1px hidden;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.sub2 {
+    text-align: center;
+    border: none;
+}
+.tokyo-img {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: auto;
+    text-align: center;
+}
+.tokyo-text {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: left;
+    background-color: #c71a1d;
+    border: 1px hidden;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.sub3 {
+    text-align: center;
+    border: none;
 }

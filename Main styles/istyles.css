@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?lang="en"?family=Akaya+Telivigala&family=RocknRoll+One&display=swap');
+@font-face {
+    font-family: "Akaya Telivigal", "RocknRoll One", sans-serif;
+    src: url(fonts/RocknRoll-One-Regular-400.ttf);
+}
+h1 {
+    font-family: 'Singlet', sans-serif;
+    font-size: 52px;
+    color: #c71a1d;
+    justify-self: auto;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+nav {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    color: #249BE0;
+    font-size: 28px;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 4%;
+}
+nav a:hover {
+    background-color: #249BE0;
+    color: #00171f;
+}
