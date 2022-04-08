@@ -271,15 +271,6 @@ footer a:hover {
     width: 50%;
     height: auto;
 }
-.title-text {
-    z-index: 1;
-    font-size: 36px;
-    font-family: "Patrick Hand", sans-serif;
-    position: absolute;
-    top: 55%;
-    width: 100%;
-    font-size: 52px;
-}
 h5 {
     font-size: 38px;
     font-family: "Patrick Hand", sans-serif;
